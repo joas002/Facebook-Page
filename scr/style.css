@@ -1,0 +1,134 @@
+@import url('http://fonts.cdnfonts.com/css/facebook-sans');
+
+* {
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-color: #f2f2f2;
+    color: #1c1e21;
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+#chamada-facebook {
+    margin-top: 100px;
+    width: 370px;
+    float: left;
+}
+
+#chamada-facebook h1 {
+    font-size: 52px;
+    font-weight: bolder;
+    color: #1877f2;
+    font-family: 'Facebook Sans', sans-serif;
+}
+
+#chamada-facebook p {
+    font-size: 26px;
+    line-height: 32px;
+    width: 500px;
+}
+
+form {
+    float: right;
+    width: 370px;
+    
+    background-color: #fff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgb(0, 0, 0, 0.1);
+        border-radius: 8px;
+    padding: 14px;
+    margin: 12px 19px 20px 20px;
+}
+
+form input[type="text"], form input[type="password"]{
+    width: 316px;
+    height: 22px;
+    margin-bottom: 10px;
+    padding: 14px 16px;
+    font-size: 16px;
+
+
+    outline: none;
+    color: #1d2129;
+    caret-color: #005eff;
+    border-radius: 8px;
+    border: 1px solid #dddfe2;
+}
+form input[type="text"]:focus, form input[type="password"]:focus{
+    border: 1px solid #005eff;
+}
+
+form input::placeholder{
+    color: #888c92;
+}
+
+form input:focus::placeholder{
+    color: #c1c5ce;
+}
+
+form input[type="submit"]{
+    width: 350px;
+    padding: 12px;
+    margin: 10px auto;
+
+    font-size: 19px;
+    border: none;
+    border-radius: 6px;  
+    background-color: #007ffe;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+form input[type="submit"]:hover{
+    background-color: #0073f7;
+}
+
+.esqueceu-senha{
+    margin-top: 10px auto;
+    display: block;
+    text-align: center;
+
+    text-decoration: none;
+    color: #0073f7;
+    font-size: 13px;
+    font-weight: 500;
+    
+}
+
+.esqueceu-senha:hover{
+    text-decoration: underline;
+}
+
+.custom-hr {
+    margin: 20px;
+    width: 100%;
+    border-bottom: 1px solid #dadef1;
+}
+
+.criar-conta {
+    border-radius: 6px;
+    padding: 20px 26px;
+    margin-left: 90px;
+    display: inline-block;
+
+    color: #fff;
+    background-color: #3fb527;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.criar-conta:hover {
+    background-color: #43a82e;
+}
